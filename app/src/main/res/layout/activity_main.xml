@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FACA78"
+    android:background="#F6DCAC"
     tools:context=".MainActivity">
 
     <ImageView
@@ -27,7 +27,8 @@
         android:textStyle="bold"
         android:textSize="70px"
         android:layout_marginTop="300px"
-        android:fontFamily=""
+        android:textColor="#01204E"
+        android:fontFamily="@font/playfair_display_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,6 +41,8 @@
         android:textAlignment="center"
         android:textSize="60px"
         android:layout_marginTop="480px"
+        android:textColor="#01204E"
+        android:fontFamily="@font/playfair_display_regular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

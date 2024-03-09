@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp">
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_banner" />
+
+        <View
+            android:background="@drawable/bg_black_gradient_banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/disc_banner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="50%"
+            android:textSize="100sp"
+            android:textFontWeight="200"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="-16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/title_banner"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Spesial Harga Teman!"
+            android:textSize="24sp"
+            android:textFontWeight="700"
+            android:textColor="#f1f1f1"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Kapan lagi dapat harga semurah ini."
+            android:textSize="16sp"
+            android:textFontWeight="400"
+            android:layout_marginTop="-8dp"
+            android:lineSpacingExtra="-15dp"
+            android:textColor="#d3d3d3"
+            app:layout_constraintStart_toStartOf="@id/title_banner"
+            app:layout_constraintTop_toBottomOf="@id/title_banner"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

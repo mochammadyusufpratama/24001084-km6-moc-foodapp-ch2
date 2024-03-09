@@ -2,4 +2,5 @@
     <string name="app_name">My Application</string>
     <string name="text_name">Hai, Mochammad Yusuf !</string>
     <string name="text_greetings">What you gonna eat this day ?</string>
+    <string name="price">Rp50.000,00</string>
 </resources>
